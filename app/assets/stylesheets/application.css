@@ -14,8 +14,12 @@
  *= require_self
  */
 
+h2 {
+  font-family: sans-serif;
+}
 span.title {
   font-weight: bold;
+
 }
 
 .blurb {

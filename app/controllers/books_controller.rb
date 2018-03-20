@@ -15,7 +15,6 @@ class BooksController < ApplicationController
     @book = BOOK_LIST.find do |book| #find returns first match
       book[:id] == id.to_i
     end
-  #   raise
   end
 
   def new
