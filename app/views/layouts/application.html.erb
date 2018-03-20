@@ -9,6 +9,18 @@
   </head>
 
   <body>
+    <nav class="nav">
+      <ul>
+        <li>
+          <%= link_to "home", books_path %>
+        </li>
+        <li>
+          <%= link_to "Add a Book", new_book_path %>
+        </li>
+      </ul>
+
+    </nav>
+
     <%= yield %>
     <%# stops and looks for a view file w same file name %>
   </body>
